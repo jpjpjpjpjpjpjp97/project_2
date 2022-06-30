@@ -1,5 +1,8 @@
 
-FROM jpjpjpjpjpjpjp97/project_2:latest
+FROM python:3.9
+
+ENV PYTHONDONTWRITEBYTECODE 1
+ENV PYTHONUNBUFFERED 1
 
 WORKDIR /project_2
 ADD ./project_2 /project_2/
